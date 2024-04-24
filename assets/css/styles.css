@@ -181,3 +181,10 @@ header #export-notes:hover {
         grid-template-columns: repeat(auto-fill, 100%);
     }
 }
+
+@media(max-width: 1000px) {
+    #notes-container .note .bi.bi-x-lg,
+    #notes-container .note .bi.bi-file-earmark-plus {
+        opacity: 1;
+    }
+}
