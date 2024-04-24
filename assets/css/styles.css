@@ -157,6 +157,31 @@ header #export-notes:hover {
     background-color: #3c3c3f;
 }
 
+footer {
+    width: 100%;
+    bottom: 0;
+    /* margin: 0 auto 10px; */
+    margin: 10px auto;
+    text-align: center;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer p a {
+    text-transform: uppercase;
+    color: #aaa;
+    text-decoration: none;
+    transition: .5s;
+}
+
+footer p a:hover {
+    color: #fff;
+}
+
 @media(max-width: 451px) {
     header {
         flex-direction: column;
